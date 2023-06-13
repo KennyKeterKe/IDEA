@@ -4,52 +4,44 @@
   <title>Ideamplifier - Crowdfunding Platform</title>
   <style>
     body {
-      background: linear-gradient(to bottom, #79CDCD, #00FF00); /* 背景渐变色，从宝蓝色到绿色 */
+      background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+      background-size: 1200% 100%;
+      animation: rainbow 10s linear infinite;
       font-family: Arial, sans-serif;
-      color: #ff1493; /* 粉色字体 */
+      color: #ffffff; /* White font color */
+    }
+
+    h1, h2, h3 {
+      text-align: center;
     }
 
     h1 {
-      font-size: 72px;
-      text-align: center;
+      font-size: 48px;
       margin-top: 100px;
-      letter-spacing: 5px;
-      text-transform: uppercase;
-      color: #ff1493; /* 粉色字体 */
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
     }
 
     h2 {
-      font-size: 48px;
-      text-align: center;
-      text-transform: uppercase;
-      margin-bottom: 50px;
-      color: #ff1493; /* 粉色字体 */
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
+      font-size: 36px;
     }
 
     h3 {
-      font-size: 30px;
-      text-transform: uppercase;
-      color: #ff1493; /* 粉色字体 */
+      font-size: 24px;
     }
 
-    ul {
-      font-size: 24px;
-      margin-left: 40px;
-      margin-bottom: 50px;
-      color: #00ff00; /* 绿色字体 */
+    ul.question-list {
+      font-size: 20px;
+      text-align: center;
     }
 
     .upload-button {
-      background-color: #ff1493; /* 粉色背景 */
-      color: #fff; /* 白色字体 */
+      background-color: #ff1493; /* Pink background */
+      color: #ffffff; /* White font color */
       font-size: 28px;
       padding: 15px 30px;
       border: none;
       border-radius: 5px;
       display: block;
-      width: 300px;
+      width: 200px;
       margin: 0 auto;
       margin-top: 50px;
       text-align: center;
@@ -57,46 +49,23 @@
       letter-spacing: 2px;
       text-transform: uppercase;
       transition: background-color 0.3s ease;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
     }
 
     .upload-button:hover {
-      background-color: #ff69b4; /* 粉色的亮色 */
+      background-color: #ff69b4; /* Light pink hover color */
     }
 
-    p {
-      font-size: 18px;
-      text-align: center;
-      margin-bottom: 50px;
+    /* Rest of the CSS code */
+
+    /* Animation for the rainbow background */
+    @keyframes rainbow {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
     }
 
-    /* 自定义样式，可以根据需要进行调整 */
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 50px;
-    }
-
-    .section-title {
-      font-size: 24px;
-      text-align: center;
-      text-transform: uppercase;
-      color: #ff1493; /* 粉色字体 */
-      margin-bottom: 30px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
-    }
-
-    .section-content {
-      font-size: 16px;
-      text-align: justify;
-      color: #ff1493; /* 粉色字体 */
-      line-height: 1.5;
-    }
-
-    /* 白色字体的问题列表 */
-    ul.question-list {
-      color: #fff; /* 白色字体 */
-    }
+    /* Rest of the CSS code */
   </style>
 </head>
 <body>
@@ -107,13 +76,15 @@
     <li>Do you know anyone super rich that can be your angel investor in your life?🪽</li>
     <li>Do you have enough confidence to talk to A VC?🤯</li>
     <li>Do you have enough savings to start your dream company?😌</li>
-    <li>If the answers to these qustions are NOOOO🙉</li>
+    <li>If the answers to these questions are NOOOO🙉</li>
     <li>Are you looking for a little bit more confidence before talking to a VC?😭</li>
-    <li>Are you looking for professional advices on your "immature but promising" ideas?🤓</li>
-    <li>Do you want to protect your amazing business ideas before everbody is talking about it?🫣</li>
-    <li>If the answers to these qustions are Yassss😍</li>
+    <li>Are you looking for professional advice on your "immature but promising" ideas?🤓</li>
+    <li>Do you want to protect your amazing business ideas before everybody is talking about it?🫣</li>
+    <li>If the answers to these questions are Yassss😍</li>
   </ul>
-  <a href="http://127.0.0.1:5000/" class="upload-button">Click here please🥰</a>
+  <div class="container">
+    <a href="http://127.0.0.1:5000/" class="upload-button">Click here please🥰</a>
+  </div>
   <h2>WE CAN HELP UUUUUUUU</h2>
   <p>We are a crowdfunding platform combining the features of equity crowdfunding, where the borrowers are entrepreneurs looking for pre-seed funding, and the lenders are family and friends of those entrepreneurs</p>
 </body>
