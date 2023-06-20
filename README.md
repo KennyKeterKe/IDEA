@@ -20,7 +20,7 @@ How to start the application
 
 ## Why I used these technologies?
 
-## HTML:
+## HTML
 1. HTML offers a structured and hierarchical approach to organizing content, making information on Ideamplifier clear and organized.
 2. It ensures cross-platform compatibility, allowing users to access the platform from various devices and browsers.
 3. HTML is relatively easy to learn and use, with a straightforward syntax using tags to define elements.
