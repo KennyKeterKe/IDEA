@@ -51,8 +51,7 @@ To run the Ideamplifier MVP, ensure you have the following installed:
 2. The main page of this website is MVP.html. After uploading this code to Github, go to "settings" and then the feature of "page" on the left side. By doing so, git hub will create a website for you automatically and accordingly. As a result, anyone who clicks the link can have access to our platform right now.
 
 # For users
-
-## How to use this application?
+How to use this application?
 
 1. Click this link:  https://kennyketerke.github.io/IDEA/MVP.html
 2. Read all the questions on the main page carefully, and if you meet all the requirements, click "Click here please🥰"
