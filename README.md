@@ -26,7 +26,7 @@ HELLO developers and all the  potential users of IDEAMPLIFIER, welcome to my pag
 1. Python is known for its simplicity and readability, and I have some experience in using Python to conduct data analysis.
 2. Python also provides robust web development frameworks like Flask. These frameworks come with built-in tools and structures that simplify common web development tasks, which are in alignment with the nature of our product.
 
-## For developers
+# For developers
 How to start the application
 
 ## Prerequisites
