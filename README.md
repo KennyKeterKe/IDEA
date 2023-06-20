@@ -1,4 +1,4 @@
-# IDEAMPLIFIER
+![image](https://github.com/KennyKeterKe/MVP_Ideamplfier_JunyuKe/assets/134174517/8ff44f3e-6cd0-452c-8962-47c9810910f4)# IDEAMPLIFIER
 A crowdfunding platform empowers entrepreneurs by transforming their amazing idea into something tangible by making the most out of their networks.
 
 ## Description
@@ -55,6 +55,17 @@ How to use this application?
 
 1. Click this link:  https://kennyketerke.github.io/IDEA/MVP.html
 2. Read all the questions on the main page carefully, and if you meet all the requirements, click "Click here please🥰"
-3. Read carefully about how our platform functions, especially the perks and requirements.
+3. Read carefully about how our platform functions, especially the perks, and requirements.
 4. Upload the documents directly and then wait for the results!
+
+
+# Security risks 
+## Operator:
+1. Insecure File Upload.
+2. Insufficient Input Validation.
+
+## Users:
+1. Data Privacy Concerns: If the system does not adequately protect user data, it could result in unauthorized access, data leaks, or misuse of personal information. Besides, the original idea of entrepreneurs might also be leaked.
+
+
 
