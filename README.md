@@ -53,7 +53,7 @@ To run the Ideamplifier MVP, ensure you have the following installed:
 ## For users
 How to use this application?
 
-1. Click this link:  https://kennyketerke.github.io/IDEA/MVP.html
+1. Click this link:  https://kennyketerke.github.io/MVP_Ideamplfier_JunyuKe/MVP.html
 2. Read all the questions on the main page carefully, and if you meet all the requirements, click "Click here please🥰"
 3. Read carefully about how our platform functions, especially the perks, and requirements.
 4. Upload the documents directly and then wait for the results!
