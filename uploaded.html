@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uploaded Picture</title>
+  <style>
+    /* CSS styles for the page */
+
+    body {
+      /* Rainbow gradient background */
+      background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+      background-size: 1200% 100%;
+      animation: rainbow 10s linear infinite;
+      font-family: Arial, sans-serif;
+      color: #ffffff; /* White font color */
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 48px;
+      margin-top: 100px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      max-width: 500px;
+    }
+
+    .certified {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .certified img {
+      max-width: 200px;
+    }
+
+    form {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    button {
+      background-color: #ff1493; /* Pink background */
+      color: #ffffff; /* White font color */
+      font-size: 28px;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+      margin-right: 10px;
+    }
+
+    button:hover {
+      background-color: #ff69b4; /* Light pink hover color */
+    }
+
+    /* Animation for the rainbow background */
+    @keyframes rainbow {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+  </style>
+</head>
+<body>
+  <h1>Picture Uploaded</h1>
+  <img src="{{ url_for('static', filename='files/' + picture) }}" alt="Uploaded Picture">
+  
+  {% if picture in certified_files %}
+    <!-- If the picture is certified -->
+    <div class="certified">
+      <h2>Certified Picture</h2>
+      <img src="{{ url_for('static', filename='certified.png') }}" alt="Certified Picture">
+      <div class="button-group">
+        <!-- Form to mark the picture as not certified -->
+        <form action="{{ url_for('not_certify_picture') }}" method="POST">
+          <input type="hidden" name="picture" value="{{ picture }}">
+          <button type="submit">Not Certified</button>
+        </form>
+      </div>
+    </div>
+  {% else %}
+    <!-- If the picture is not certified -->
+    <div class="certified">
+      <h2>Not Certified Picture</h2>
+      <img src="{{ url_for('static', filename='not_certified.png') }}" alt="Not Certified Picture">
+      <div class="button-group">
+        <!-- Form to certify the picture -->
+        <form action="{{ url_for('certify_picture') }}" method="POST">
+          <input type="hidden" name="picture" value="{{ picture }}">
+          <button type="submit">Certify Picture</button>
+        </form>
+      </div>
+    </div>
+    <div class="button-group">
+      <!-- Form to mark the picture as not certified -->
+      <form action="{{ url_for('not_certify_picture') }}" method="POST">
+        <input type="hidden" name="picture" value="{{ picture }}">
+        <button type="submit">Not Certified</button>
+      </form>
+    </div>
+  {% endif %}
+</body>
+</html>
