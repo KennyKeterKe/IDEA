@@ -1,4 +1,4 @@
-![image](https://github.com/KennyKeterKe/MVP_Ideamplfier_JunyuKe/assets/134174517/8ff44f3e-6cd0-452c-8962-47c9810910f4)# IDEAMPLIFIER
+# IDEAMPLIFIER
 A crowdfunding platform empowers entrepreneurs by transforming their amazing idea into something tangible by making the most out of their networks.
 
 ## Description
