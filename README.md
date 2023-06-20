@@ -26,7 +26,7 @@ HELLO developers and all the  potential users of IDEAMPLIFIER, welcome to my pag
 1. Python is known for its simplicity and readability, and I have some experience in using Python to conduct data analysis.
 2. Python also provides robust web development frameworks like Flask. These frameworks come with built-in tools and structures that simplify common web development tasks, which are in alignment with the nature of our product.
 
-# For developers
+## For developers
 How to start the application
 
 ## Prerequisites
@@ -50,7 +50,7 @@ To run the Ideamplifier MVP, ensure you have the following installed:
 1. It is highly suggested to follow all the beforementioned instructions and store all the codes ay GitHub since it could directly transform your HTML document into a web page.
 2. The main page of this website is MVP.html. After uploading this code to Github, go to "settings" and then the feature of "page" on the left side. By doing so, git hub will create a website for you automatically and accordingly. As a result, anyone who clicks the link can have access to our platform right now.
 
-# For users
+## For users
 How to use this application?
 
 1. Click this link:  https://kennyketerke.github.io/IDEA/MVP.html
@@ -59,7 +59,7 @@ How to use this application?
 4. Upload the documents directly and then wait for the results!
 
 
-# Security risks 
+## Security risks 
 ## Operator:
 1. Insecure File Upload.
 2. Insufficient Input Validation.
