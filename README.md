@@ -47,13 +47,13 @@ To run the Ideamplifier MVP, ensure you have the following installed:
 8. After the picture is uploaded successfully, the web page where the platform decides whether or not to certify the picture will be shown, and the professionals of the website will be able to make a choice on whether or not to give a certification to the uploaded picture.
 
 ## Website development
-1. It is highly suggested to follow all the beforementioned instructions and store all the codes ay GitHub since it could directly transform your HTML document into a web page.
+1. It is highly suggested to follow all the beforementioned instructions and store all the codes ay GitHub since it could directly transform your HTML document into a website.
 2. The main page of this website is MVP.html. After uploading this code to Github, go to "settings" and then the feature of "page" on the left side. By doing so, git hub will create a website for you automatically and accordingly. As a result, anyone who clicks the link can have access to our platform right now.
 
 ## For users
 How to use this application?
 
-1. Click this link:  https://kennyketerke.github.io/MVP_Ideamplfier_JunyuKe/MVP.html
+1. Click this link of the website:  https://kennyketerke.github.io/MVP_Ideamplfier_JunyuKe/MVP.html
 2. Read all the questions on the main page carefully, and if you meet all the requirements, click "Click here please🥰"
 3. Read carefully about how our platform functions, especially the perks, and requirements.
 4. Upload the documents directly and then wait for the results!
