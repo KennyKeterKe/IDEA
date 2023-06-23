@@ -43,7 +43,7 @@ To run the Ideamplifier MVP, ensure you have the following installed:
 4. It should be noted that this is the code for an MVP, such that what users can upload to the website and what the website can certify currently is picture only, and the feature to upload and review video will be developed in the future.
 5. Run the application in the terminal: `python app.py`.
 6. If it works successfully, you will have access to the application in your web browser at: `http://localhost:5000`; this link will lead you to the website where users can upload their pictures.
-7. When the picture is uploaded, you will be able to see the uploaded picture under the "static/files" on your visual studio code.
+7. When the picture is uploaded, you will be able to see the uploaded picture under the "static/files" on your visual studio code as well as the file whose name is "static" on your computer.
 8. After the picture is uploaded successfully, the web page where the platform decides whether or not to certify the picture will be shown, and the professionals of the website will be able to make a choice on whether or not to give a certification to the uploaded picture.
 
 ## Website development
