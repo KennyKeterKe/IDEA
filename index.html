@@ -1,94 +1,171 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ideamplifier - Upload Your Pitch Video</title>
-  <style>
-    /* Add your custom CSS styles here */
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #79CDCD, #00FF00); /* 背景渐变色，从宝蓝色到绿色 */
-      color: #ff1493; /* 粉色字体 */
-    }
-    
-    h1 {
-      text-align: center;
-      font-size: 36px;
-      margin-top: 50px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加阴影效果 */
-    }
-    
-    .section {
-      margin: 20px 0;
-      padding: 20px;
-      background-color: #f4f4f4;
-      border-radius: 5px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-    }
-    
-    p {
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-    
-    form {
-      text-align: center;
-      margin-top: 20px;
-    }
-    
-    input[type="file"] {
-      margin-bottom: 10px;
-    }
-    
-    button[type="submit"] {
-      background-color: #ff1493; /* 粉色背景 */
-      color: #fff; /* 白色字体 */
-      font-size: 20px;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-      border: 1px solid transparent; /* 边框设置为透明 */
-    }
-    
-    button[type="submit"]:hover {
-      background-color: #ff69b4; /* 粉色的亮色 */
-    }
-  </style>
+    <title>Ideamplifier - Upload Your Pitch Video</title>
+    <style>
+        /* CSS styles for the page */
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #79CDCD, #00FF00); 
+            color: #ff1493; 
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-top: 50px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+        }
+
+        .section:nth-child(1) {
+            background-color: transparent; /* Remove background color */
+        }
+
+        .section:nth-child(2) {
+            background-color: transparent; /* Remove background color */
+        }
+
+        .section:nth-child(3) {
+            background-color: transparent; /* Remove background color */
+        }
+
+        .section:nth-child(4) {
+            background-color: transparent; /* Remove background color */
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #ff1493; /* Pink background */
+            color: #fff; /* White text color */
+            font-size: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+            border: 1px solid transparent; /* Set border to transparent */
+        }
+
+        button[type="submit"]:hover {
+            background-color: #ff69b4; /* Lighter shade of pink */
+        }
+
+        /* Add the styles from the previous code here */
+        body {
+            background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+            background-size: 1200% 100%;
+            animation: rainbow 10s linear infinite;
+            font-family: Arial, sans-serif;
+            color: #ffffff; /* White font color */
+        }
+
+        h2, h3 {
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 36px;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        ul.question-list {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .upload-button {
+            background-color: #ff1493; /* Pink background */
+            color: #ffffff; /* White font color */
+            font-size: 28px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 50px;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+        }
+
+        .upload-button:hover {
+            background-color: #ff69b4; /* Light pink hover color */
+        }
+
+        /* Animation for the rainbow background */
+        @keyframes rainbow {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+    </style>
 </head>
 <body>
-  <!-- Section 1: How does Ideamplifier work? -->
-  <div class="section">
+<!-- Section 1: How does Ideamplifier work? -->
+<div class="section">
     <h1>How does Ideamplifier work?</h1>
-    <p> 1.Pay little(500 dollars) for the amazing POSSIBILITY for your EVER first pre-seed funding(500-50000 dollars).</p>
-    <p> 2.Our platform will conduct a pre-assessment for each pitch video submitted.</p>
-  </div>
+    <p> 1. Pay little (500 dollars) for the amazing POSSIBILITY for your EVER first pre-seed funding (500-50000 dollars).</p>
+    <p> 2. Our platform will conduct a pre-assessment for each pitch video submitted.</p>
+</div>
 
-  <!-- Section 2: More If Approved -->
-  <div class="section">
+<!-- Section 2: More If Approved -->
+<div class="section">
     <h1>There's More If You Get Approved by Us</h1>
-    <p>1.Your pitch video will be recommeded to our partnered VC if we think your idea does derseve to shine</p>
-    <p>2.We will manage everything for you, especially the equity management, since DAY 1 </p>
-  </div>
+    <p>1. Your pitch video will be recommended to our partnered VC if we think your idea does deserve to shine.</p>
+    <p>2. We will manage everything for you, especially the equity management, since DAY 1.</p>
+</div>
 
-  <!-- Section 3: Explore Your Idea -->
-  <div class="section">
+<!-- Section 3: Explore Your Idea -->
+<div class="section">
     <h1>There's So Much to Explore If Your Idea is the One</h1>
-    <p>1.We will put a "approved" tag on your video, then you will be able to share your pitch video to your instagram story. YEAH, rasing money can be fun😊</p>
-    <p>2.Various tailored motivation schemes will be assigned to you to help you success ASAP. </p>
-  </div>
+    <p>1. We will put an "approved" tag on your video, then you will be able to share your pitch video to your Instagram story. YEAH, raising money can be fun! 😊</p>
+    <p>2. Various tailored motivation schemes will be assigned to you to help you succeed ASAP.</p>
+</div>
 
-  <!-- Section 4: File Upload Form -->
-  <div class="section"> 
+<!-- Section 4: File Upload Form -->
+<div class="section">
     <h1>Upload Your Pitch Video</h1>
 
-   <form method='POST' enctype='multipart/form-data'>
-    {{form.hidden_tag()}}
-    {{form.file()}}
-    {{form.submit()}}
+    <form method='POST' enctype='multipart/form-data'>
+        {{ form.hidden_tag() }}
+        {{ form.file.label }} {{ form.file }}
+        {{ form.submit }}
+    </form>
 
+    {% if form.file.data and certified_videos.get(form.file.data.filename) %}
+    <p>Certified</p>
+    {% endif %}
+</div>
 </body>
 </html>
